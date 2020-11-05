@@ -1,13 +1,6 @@
-{
-  "main": "index.js",
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "web": "expo start --web",
-    "start": "react-native start",
-    "test": "jest"
-  },
-  "dependencies": {
+you will need to install some packages to run this project
+
+ "dependencies": {
     "@react-native-community/masked-view": "0.1.10",
     "@react-navigation/bottom-tabs": "^5.10.1",
     "@react-navigation/native": "^5.8.1",
@@ -35,14 +28,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0"
   },
-  "devDependencies": {
-    "@babel/core": "~7.9.0",
-    "babel-jest": "~25.2.6",
-    "jest": "~25.2.6",
-    "react-test-renderer": "~16.13.1"
-  },
-  "jest": {
-    "preset": "react-native"
-  },
-  "private": true
-}
+
+  i used andriod simulator google pixel 2xl to test the app on andriod 10
+  i don't have an ios device to test
+  install the packages and connect with your phone and enjoy the experience of the app
